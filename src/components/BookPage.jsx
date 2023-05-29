@@ -14,7 +14,7 @@ const BookPage = () => {
     const getdata = async () => {
         const url = "https://dapi.kakao.com/v3/search/book?target=title";
         const config = {
-            headers: { "Authorization": 'KakaoAK 3eb7a23a31bc8d7ab042e730beb18967' },
+            headers: { "Authorization": 'KakaoAK 1fa6db5bd1bcbdca2856a6c7625dba28' },
             params: { "query": query, "size": 8, "page": page }
         }
 
